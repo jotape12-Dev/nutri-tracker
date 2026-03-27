@@ -71,7 +71,7 @@ const SettingsView: React.FC = () => {
           <View style={styles.menuLeft}>
             <Text style={styles.menuLabel}>Weight Unit</Text>
           </View>
-          <Text style={styles.menuValue}>Kilograms (kg)</Text>
+          <Text style={styles.menuValue}>Grams (g)</Text>
         </TouchableOpacity>
       </View>
 
