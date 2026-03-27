@@ -2,8 +2,6 @@
 
 NutriTrack is a premium nutrition tracking mobile application built with **React Native CLI**. It offers a clean, high-fidelity user interface for monitoring daily caloric intake, macronutrients, and meal history.
 
-![Dashboard Preview](https://via.placeholder.com/800x400.png?text=NutriTrack+Dashboard+Preview)
-
 ## 🚀 Key Features
 
 - **Dynamic Calorie Monitoring**: Visual progress ring calculating real-time 'Kcal Left' based on daily goals.
