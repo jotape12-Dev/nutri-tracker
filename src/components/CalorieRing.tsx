@@ -13,9 +13,10 @@ const RADIUS = (SIZE - STROKE_WIDTH) / 2;
 const CIRCUMFERENCE = 2 * Math.PI * RADIUS;
 
 const CalorieRing: React.FC<CalorieRingProps> = ({ caloriesLeft, caloriesGoal }) => {
-  const progress = 0.75;
+  const consumed = caloriesGoal - caloriesLeft;
+  const progress = consumed / caloriesGoal;
+  const percentage = Math.round(progress * 100);
   const strokeDashoffset = CIRCUMFERENCE * (1 - progress);
-  const percentage = 75;
 
   return (
     <View style={styles.container}>
